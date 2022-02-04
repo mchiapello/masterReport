@@ -16,4 +16,7 @@ bs4:
 serve:
 	Rscript -e "bookdown::serve_book()"
 
+docx:
+	Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::word_document2')"
+
 
