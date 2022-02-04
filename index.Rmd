@@ -1,7 +1,7 @@
 --- 
 title: "A Minimal Book Example"
 author: "Marco Chiapello"
-date: "Last update: `r Sys.Date()`"
+date: "Created 2022-02-04\nLast update: `r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
