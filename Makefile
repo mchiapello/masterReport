@@ -1,4 +1,4 @@
-bookpdf: gitbook pdf
+book: clean gitbook pdf docx
 
 clear:
 	rm -rf _book
