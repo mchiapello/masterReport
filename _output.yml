@@ -1,14 +1,13 @@
 bookdown::gitbook:
+  number_sections: false
   css: style.css
   config:
     toc:
       before: |
-        <li><a href="./">A Minimal Book Example</a></li>
-      after: |
-        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/rstudio/bookdown-demo/edit/master/%s
-    download: ["pdf", "epub"]
+        <li><a href="./">Index</a></li>
+    download: ["pdf", "docx"]
 bookdown::pdf_book:
+  number_sections: false
   includes:
     in_header: preamble.tex
   latex_engine: xelatex
@@ -16,3 +15,5 @@ bookdown::pdf_book:
   keep_tex: yes
 bookdown::epub_book: default
 bookdown::bs4_book: default
+bookdown::word_document2: default
+bookdown::html_document2: default
